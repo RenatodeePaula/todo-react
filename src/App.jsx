@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 import Todo from "./components/Todo";
 
-import Patei from './components/Patei';
+import TodoForm from './components/TodoForm';
 
 import "./App.css";
 
@@ -31,15 +31,13 @@ function App() {
       <h1>Lista de Tarefas</h1>
       <div className="todo-list">
         {todos.map((todo) =>(
-         <Todo todo={todo} />
+         <Todo key={todo.id} todo={todo} />
         ))}
-      </div>
+      </div> 
+        <TodoForm />
     </div>
-  )
-}
 
-return (
-  <Patei pateeei={Patei} />
-)
+  );
+};
 
-export default App
+export default App;
