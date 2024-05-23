@@ -1,7 +1,7 @@
-<h1 align="center">Quiz Interativo</h1>
+<h1 align="center">Todo React</h1>
 
 <p align="center">
-#Projeto feito para estudo de JavaScript puro, um quiz com perguntas e respostas interativas.<br/>
+#Projeto feito para estudo de React JS, Todo feito com React.<br/>
 </p>
 
 <p align="center">
@@ -19,7 +19,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML e CSS
 - Git e Github
-- Vanilla JavaScript
+- JavaScript
+- React
+- Vite
 ---
 
 Feito by Renato de Paula pelo curso Hora de Codar 
